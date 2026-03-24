@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evil-GUI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP TARGET BAR -->
+<div class="topbar">
+  <div id="targets"></div>
+</div>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h3>Modules</h3>
+    <button onclick="runModule('psexec')">psexec</button>
+    <button onclick="runModule('wmiexec')">wmiexec</button>
+    <button onclick="runModule('secretsdump')">secretsdump</button>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <div class="tabs">
+      <span class="tab active">Main</span>
+    </div>
+
+    <div class="workspace">
+
+      <h3>Target Info</h3>
+      <p id="currentTarget">No target selected</p>
+
+      <div class="inputs">
+        TARGET:<br>
+        <input id="targetInput" placeholder="192.168.1.10"><br>
+
+        USER:<br>
+        <input id="userInput"><br>
+
+        PASS:<br>
+        <input id="passInput" type="password"><br>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- CONSOLE OUTPUT -->
+<div class="console">
+  <pre id="output"></pre>
+</div>
+
+<!-- TERMINAL INPUT (QUESTO È IL PEZZO IMPORTANTE) -->
+<div class="terminal-input">
+  <span style="color:#00ff00;">$</span>
+  <input id="cmdInput" placeholder="type command..." autocomplete="off">
+  <button onclick="sendCommand()">Send</button>
+</div>
+
+<script src="renderer.js"></script>
+</body>
+</html>

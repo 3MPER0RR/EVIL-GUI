@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+.topbar {
+  height: 50px;
+  background: #161b22;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+.target {
+  background: #238636;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 200px);
+}
+
+.sidebar {
+  width: 200px;
+  background: #161b22;
+  padding: 10px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  background: #161b22;
+  padding: 5px;
+}
+
+.workspace {
+  flex: 1;
+  padding: 10px;
+}
+
+.inputs input {
+  margin: 5px 0;
+  width: 200px;
+}
+
+.console {
+  height: 150px;
+  background: #000;
+  color: #00ff00;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.terminal-input {
+  background: #161b22;
+  padding: 5px;
+  display: flex;
+}
+
+.terminal-input input {
+  flex: 1;
+  background: #000;
+  color: #00ff00;
+  border: none;
+  padding: 5px;
+}
+
+.terminal-input button {
+  margin-left: 5px;
+}
