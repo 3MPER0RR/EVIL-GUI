@@ -31,12 +31,12 @@ const scriptPath = "/absolute/path/to/impacket/examples/";
 
 npm start
 
-## Requirements
+REQUIRMENTS
 Node.js
 Python 3
 Impacket
 
-## Installation - bash
+INSTALLATION - bash
 
 git clone <repo-url>
 cd evil-gui
@@ -44,5 +44,5 @@ chmod +x install.sh
 ./install.sh
 npm start
 
-## Notes
+NOTES
 This tool requires a valid target with SMB access (port 445) for modules like psexec
