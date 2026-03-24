@@ -33,5 +33,3 @@ Impacket
 
 ## Notes
 This tool requires a valid target with SMB access (port 445) for modules like psexec
-
-![evil-gui](evil-gui.png)
