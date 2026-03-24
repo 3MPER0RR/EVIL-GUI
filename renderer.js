@@ -27,8 +27,8 @@ function runModule(module) {
     return;
   }
 
-  const pythonPath = "/Users/tony/Desktop/evil-gui/imp/impvm/bin/python3.10";
-  const scriptPath = `/Users/tony/Desktop/evil-gui/imp/impacket/examples/${module}.py`;
+  const pythonPath = "/bin/python3.10";
+  const scriptPath = `impacket/examples/${module}.py`;
 
   appendOutput(`\n> Starting ${module} on ${target}\n`);
 
