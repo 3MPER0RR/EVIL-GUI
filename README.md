@@ -2,6 +2,7 @@ Evil-GUI is a desktop Electron/Node.js interface designed to orchestrate network
 
 It allows managing multiple targets, sending commands, and displaying output directly in the GUI, simplifying the usage of Python scripts in a controlled penetration testing environment.
 
+⚠️Interface currently under development
 
 ## Installation
 
